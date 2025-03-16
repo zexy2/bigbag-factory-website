@@ -1,42 +1,42 @@
 root/
-├── assets/                 # Statik dosyalar
-│   ├── css/               # CSS dosyaları
-│   │   └── style.css      # Ana stil dosyası
-│   ├── js/                # JavaScript dosyaları
-│   │   └── main.js        # Ana JavaScript dosyası
-│   ├── images/            # Görsel dosyaları
-│   │   ├── products/      # Ürün görselleri
-│   │   ├── shipments/     # Sevkiyat görselleri
-│   │   ├── logo/          # Logo dosyaları
-│   │   ├── icons/         # İkon dosyaları
-│   │   ├── flags/         # Bayrak görselleri
-│   │   └── facility/      # Tesis görselleri
-│   └── videos/            # Video dosyaları
-├── includes/              # PHP include dosyaları
-│   ├── config.php         # Yapılandırma dosyası
+├── assets/                 # Static files
+│   ├── css/               # CSS files
+│   │   └── style.css      # Main style file
+│   ├── js/                # JavaScript files
+│   │   └── main.js        # Main JavaScript file
+│   ├── images/            # Image files
+│   │   ├── products/      # Product images
+│   │   ├── shipments/     # Shipment images
+│   │   ├── logo/          # Logo files
+│   │   ├── icons/         # Icon files
+│   │   ├── flags/         # Flag images
+│   │   └── facility/      # Facility images
+│   └── videos/            # Video files
+├── includes/              # PHP include files
+│   ├── config.php         # Configuration file
 │   ├── header.php         # Header template
 │   ├── footer.php         # Footer template
-│   ├── whatsapp.php       # WhatsApp entegrasyonu
-│   └── helpers.php        # Yardımcı fonksiyonlar
-├── lang/                  # Dil dosyaları
-│   ├── tr.php            # Türkçe çeviriler
-│   └── en.php            # İngilizce çeviriler
-├── scripts/              # Script dosyaları
-│   └── process-contact.php # İletişim formu işleme
-├── .htaccess             # Apache yapılandırması
-├── .gitignore            # Git yoksayma listesi
-├── config.php.example    # Örnek yapılandırma
-├── index.php             # Ana sayfa
-├── products.php          # Ürünler sayfası
-├── sevkiyatlar.php       # Sevkiyat takip
-├── about.php             # Hakkımızda
-├── contact.php           # İletişim
-├── privacy-policy.php    # Gizlilik politikası
-├── terms.php             # Kullanım şartları
-├── cookie-policy.php     # Çerez politikası
-├── kvkk.php              # KVKK bildirimi
-├── robots.txt            # Arama motoru yönergeleri
-├── sitemap.xml           # Site haritası
-├── LICENSE               # MIT lisans dosyası
-├── README.md             # Proje dokümantasyonu
-└── project-structure     # Bu dosya 
+│   ├── whatsapp.php       # WhatsApp integration
+│   └── helpers.php        # Helper functions
+├── lang/                  # Language files
+│   ├── tr.php            # Turkish translations
+│   └── en.php            # English translations
+├── scripts/              # Script files
+│   └── process-contact.php # Contact form processing
+├── .htaccess             # Apache configuration
+├── .gitignore            # Git ignore list
+├── config.php.example    # Example configuration
+├── index.php             # Home page
+├── products.php          # Products page
+├── shipments.php         # Shipment tracking
+├── about.php             # About us
+├── contact.php           # Contact
+├── privacy-policy.php    # Privacy policy
+├── terms.php             # Terms of service
+├── cookie-policy.php     # Cookie policy
+├── gdpr.php              # GDPR notice
+├── robots.txt            # Search engine directives
+├── sitemap.xml           # Site map
+├── LICENSE               # MIT license file
+├── README.md             # Project documentation
+└── project-structure     # This file 
