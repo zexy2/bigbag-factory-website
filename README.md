@@ -1,151 +1,151 @@
-# Çuval ve Ambalaj E-Ticaret Projesi
+# Industrial Bags and Packaging E-Commerce Project
 
-Modern, responsive ve çok dilli bir çuval ve ambalaj e-ticaret web sitesi projesi.
+Modern, responsive, and multilingual e-commerce website project for industrial bags and packaging solutions.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-### 📦 Ürün Yönetimi
-- Detaylı ürün kataloğu ve filtreleme sistemi
-- Ürün varyasyonları (boyut, renk, materyal)
-- Stok takibi ve yönetimi
-- Toplu ürün yönetimi
+### 📦 Product Management
+- Detailed product catalog and filtering system
+- Product variations (size, color, material)
+- Stock tracking and management
+- Bulk product management
 
-### 🌐 Kullanıcı Arayüzü
-- Modern ve responsive tasarım
-- Mobil öncelikli yaklaşım
-- Çoklu dil desteği (TR/EN)
-- Hızlı sayfa yükleme
-- WhatsApp entegrasyonu
+### 🌐 User Interface
+- Modern and responsive design
+- Mobile-first approach
+- Multi-language support (TR/EN)
+- Fast page loading
+- WhatsApp integration
 
-### 🚛 Sevkiyat ve Lojistik
-- Sevkiyat takip sistemi
-- Teslimat durumu güncellemeleri
-- Lojistik raporlama
-- Kargo entegrasyonu
+### 🚛 Shipping and Logistics
+- Shipment tracking system
+- Delivery status updates
+- Logistics reporting
+- Cargo integration
 
-### 🔒 Güvenlik
-- KVKK uyumlu
-- SSL/TLS şifreleme
-- Güvenli form işleme
-- Çerez politikası yönetimi
+### 🔒 Security
+- GDPR compliant
+- SSL/TLS encryption
+- Secure form processing
+- Cookie policy management
 
-## 💻 Teknik Gereksinimler
+## 💻 Technical Requirements
 
-### Sunucu Gereksinimleri
-- PHP 7.4 veya üzeri
-- MySQL 5.7 veya üzeri
-- Apache 2.4 veya üzeri
+### Server Requirements
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Apache 2.4 or higher
   - mod_rewrite
   - mod_expires
   - mod_deflate
 
-### Tarayıcı Desteği
-- Chrome (son 2 versiyon)
-- Firefox (son 2 versiyon)
-- Safari (son 2 versiyon)
-- Edge (son 2 versiyon)
+### Browser Support
+- Chrome (last 2 versions)
+- Firefox (last 2 versions)
+- Safari (last 2 versions)
+- Edge (last 2 versions)
 
-## 🛠 Kurulum
+## 🛠 Installation
 
-1. Repoyu klonlayın:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/kullanici/repo-adi.git
+   git clone https://github.com/username/repo-name.git
    ```
 
-2. Gerekli dosyaları yapılandırın:
+2. Configure the necessary files:
    ```bash
    cp config.php.example config.php
    ```
 
-3. config.php dosyasını düzenleyin:
-   - Veritabanı bağlantı bilgileri
-   - Site URL ve adı
-   - E-posta ayarları
-   - WhatsApp numarası
-   - API anahtarları
+3. Edit config.php:
+   - Database connection details
+   - Site URL and name
+   - Email settings
+   - WhatsApp number
+   - API keys
 
-4. Dil dosyalarını kontrol edin:
+4. Check language files:
    - lang/tr.php
    - lang/en.php
 
-5. .htaccess dosyasını sunucunuza göre düzenleyin
+5. Configure .htaccess according to your server
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 root/
-├── assets/                 # Statik dosyalar
-│   ├── css/               # CSS dosyaları
-│   ├── js/                # JavaScript dosyaları
-│   ├── images/            # Görsel dosyaları
-│   └── videos/            # Video dosyaları
-├── includes/              # PHP include dosyaları
-├── lang/                  # Dil dosyaları
-├── scripts/              # Script dosyaları
-└── [diğer dosyalar]
+├── assets/                 # Static files
+│   ├── css/               # CSS files
+│   ├── js/                # JavaScript files
+│   ├── images/            # Image files
+│   └── videos/            # Video files
+├── includes/              # PHP include files
+├── lang/                  # Language files
+├── scripts/              # Script files
+└── [other files]
 ```
 
-Detaylı dosya yapısı için `project-structure` dosyasına bakınız.
+See `project-structure` file for detailed file structure.
 
-## 🔧 Geliştirme
+## 🔧 Development
 
-### Stil Dosyaları
-- `assets/css/style.css` - Ana stil dosyası
-- Bootstrap 5.3.0 framework kullanılmaktadır
-- CSS değişkenleri ile tema yönetimi
+### Style Files
+- `assets/css/style.css` - Main style file
+- Using Bootstrap 5.3.0 framework
+- Theme management with CSS variables
 
 ### JavaScript
-- `assets/js/main.js` - Ana JavaScript dosyası
+- `assets/js/main.js` - Main JavaScript file
 - ES6+ syntax
-- Modüler yapı
+- Modular structure
 
 ### PHP
-- PSR-4 standartları
-- Nesne yönelimli yaklaşım
-- MVC benzeri yapı
+- PSR-4 standards
+- Object-oriented approach
+- MVC-like structure
 
-## 🌍 Çoklu Dil Desteği
+## 🌍 Multi-language Support
 
-Dil dosyaları `lang/` dizininde bulunur:
-- `tr.php` - Türkçe çeviriler
-- `en.php` - İngilizce çeviriler
+Language files are located in the `lang/` directory:
+- `tr.php` - Turkish translations
+- `en.php` - English translations
 
-Yeni dil eklemek için:
-1. Yeni dil dosyası oluşturun
-2. Dil değişkenlerini çevirin
-3. Dil seçeneklerine ekleyin
+To add a new language:
+1. Create a new language file
+2. Translate language variables
+3. Add to language options
 
-## 📱 Mobil Uyumluluk
+## 📱 Mobile Compatibility
 
-- Responsive tasarım
-- Mobile-first yaklaşım
-- Touch-friendly arayüz
-- Optimize edilmiş görseller
+- Responsive design
+- Mobile-first approach
+- Touch-friendly interface
+- Optimized images
 
-## 🔐 Güvenlik Önlemleri
+## 🔐 Security Measures
 
-- Input validasyonu
-- XSS koruması
-- CSRF token kullanımı
-- SQL injection koruması
-- Güvenli dosya yükleme
+- Input validation
+- XSS protection
+- CSRF token usage
+- SQL injection protection
+- Secure file upload
 
-## 🚀 Performans
+## 🚀 Performance
 
-- Görsel optimizasyonu
+- Image optimization
 - Browser caching
-- Gzip sıkıştırma
+- Gzip compression
 - CSS/JS minification
 - Lazy loading
 
-## 👥 Katkıda Bulunma
+## 👥 Contributing
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/YeniOzellik`)
-3. Commit edin (`git commit -am 'Yeni özellik: X'`)
-4. Push edin (`git push origin feature/YeniOzellik`)
-5. Pull Request oluşturun
+1. Fork it
+2. Create your feature branch (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -am 'Add new feature: X'`)
+4. Push to the branch (`git push origin feature/NewFeature`)
+5. Create a Pull Request
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakınız. 
+This project is licensed under the MIT License. See the `LICENSE` file for details. 
