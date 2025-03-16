@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+Sitemap: https://bigbagcuvalfabrikasi.com/sitemap.xml 

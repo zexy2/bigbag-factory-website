@@ -1,0 +1,42 @@
+root/
+├── assets/                 # Statik dosyalar
+│   ├── css/               # CSS dosyaları
+│   │   └── style.css      # Ana stil dosyası
+│   ├── js/                # JavaScript dosyaları
+│   │   └── main.js        # Ana JavaScript dosyası
+│   ├── images/            # Görsel dosyaları
+│   │   ├── products/      # Ürün görselleri
+│   │   ├── shipments/     # Sevkiyat görselleri
+│   │   ├── logo/          # Logo dosyaları
+│   │   ├── icons/         # İkon dosyaları
+│   │   ├── flags/         # Bayrak görselleri
+│   │   └── facility/      # Tesis görselleri
+│   └── videos/            # Video dosyaları
+├── includes/              # PHP include dosyaları
+│   ├── config.php         # Yapılandırma dosyası
+│   ├── header.php         # Header template
+│   ├── footer.php         # Footer template
+│   ├── whatsapp.php       # WhatsApp entegrasyonu
+│   └── helpers.php        # Yardımcı fonksiyonlar
+├── lang/                  # Dil dosyaları
+│   ├── tr.php            # Türkçe çeviriler
+│   └── en.php            # İngilizce çeviriler
+├── scripts/              # Script dosyaları
+│   └── process-contact.php # İletişim formu işleme
+├── .htaccess             # Apache yapılandırması
+├── .gitignore            # Git yoksayma listesi
+├── config.php.example    # Örnek yapılandırma
+├── index.php             # Ana sayfa
+├── products.php          # Ürünler sayfası
+├── sevkiyatlar.php       # Sevkiyat takip
+├── about.php             # Hakkımızda
+├── contact.php           # İletişim
+├── privacy-policy.php    # Gizlilik politikası
+├── terms.php             # Kullanım şartları
+├── cookie-policy.php     # Çerez politikası
+├── kvkk.php              # KVKK bildirimi
+├── robots.txt            # Arama motoru yönergeleri
+├── sitemap.xml           # Site haritası
+├── LICENSE               # MIT lisans dosyası
+├── README.md             # Proje dokümantasyonu
+└── project-structure     # Bu dosya 

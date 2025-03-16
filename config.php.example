@@ -1,0 +1,39 @@
+<?php
+// Database Configuration
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'database_name');
+define('DB_USER', 'database_user');
+define('DB_PASS', 'database_password');
+
+// Site Configuration
+define('SITE_URL', 'https://www.example.com');
+define('SITE_NAME', 'Your Site Name');
+define('ADMIN_EMAIL', 'info@example.com');
+
+// WhatsApp Configuration
+define('WHATSAPP_NUMBER', '905461898488');
+define('WHATSAPP_DEFAULT_MESSAGE', 'Merhaba, ürünleriniz hakkında bilgi almak istiyorum.');
+
+// Social Media
+define('FACEBOOK_URL', 'https://www.facebook.com/your-page');
+
+// Email Configuration
+define('SMTP_HOST', 'smtp.example.com');
+define('SMTP_PORT', '587');
+define('SMTP_USER', 'your_email@example.com');
+define('SMTP_PASS', 'your_email_password');
+define('SMTP_SECURE', 'tls');
+
+// Security
+define('ENCRYPTION_KEY', 'your-random-32-character-key');
+define('SESSION_LIFETIME', 3600);
+
+// Language Settings
+define('DEFAULT_LANGUAGE', 'tr');
+define('AVAILABLE_LANGUAGES', ['tr', 'en']);
+
+// Analytics
+define('GA_TRACKING_ID', 'G-XXXXXXXXXX');
+
+// Debug Mode (set to false in production)
+define('DEBUG_MODE', false); 

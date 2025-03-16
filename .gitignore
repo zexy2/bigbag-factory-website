@@ -1,0 +1,56 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+error_log
+*.log
+
+# Server config
+.htaccess
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.webm
+
+# Image source files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# Keep optimized images, ignore source files
+assets/**/*.jpg
+!assets/images/**/*.jpg
+assets/**/*.png
+!assets/images/**/*.png
+assets/**/*.gif
+!assets/images/**/*.gif
+
+# Compressed files
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+
+# Debug files
+*.map
+*.debug 
